@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(245, 230, 255);
+    color: rgb(57, 54, 63);
+    font-size: large;
+    background-image: url(whitebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    block-size: 100vh;
+    margin: 0;
+    overflow: hidden;
+    }
+    
+    .theTitles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .styledTitle {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: rgb(191, 188, 192);
+    display: inline-block;
+    font-size: 2em;
+    margin: 20px 0;
+    }
+    
+    .scoreBoard {
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    block-size: 10vh;
+    }
+    
+    #userTitle {
+        color: black;
+    }
+    
+    #pcTitle {
+        color: black;
+    }
+    
+    .points {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    color: rgb(0, 0, 0);
+    }
+    
+    #startTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        block-size: 5vh;
+        block-size: 20vh;
+    }
+    
+    .mainButtons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        margin-inline-start: 22px;
+        block-size: 5vh;
+        block-size: 20vh;
+    }
+    
+    .rock, .paper, .scissors {
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgb(125, 123, 133);
+        background-color: rgb(93, 90, 114);
+        color: white;
+    }
+    
+    .rock:hover, .paper:hover, .scissors:hover {
+        box-shadow: 0 8px 12px rgb(62, 61, 73);
+    }
+    
+    #resetContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        block-size: 5vh;
+    }
+    
+    .resetButton {
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgb(125, 123, 133);
+        background-color: rgb(93, 90, 114);
+        color: white;
+    }
+    
+    .resetButton:hover {
+        box-shadow: 0 8px 12px rgb(62, 61, 73);
+    }
+    
+    #gameCounter {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #counterContent {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
